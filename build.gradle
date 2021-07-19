@@ -22,7 +22,6 @@ dependencies {
     // https://mvnrepository.com/artifact/com.aventstack/extentreports
     implementation group: 'com.aventstack', name: 'extentreports', version: '3.1.5'
     compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.6.1'
-    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.6.1'
     // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
     implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.14.0'
     // https://mvnrepository.com/artifact/javax.validation/validation-api
