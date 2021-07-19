@@ -16,7 +16,7 @@ public class ReadExcelSheet {
 
         String filePath = Constants.filePath;
         File file = new File(filePath);
-        // Create an object of FileInputStream class and pass file as parameter to its constructor.
+//      Create an object of FileInputStream class and pass file as parameter to its constructor.
         FileInputStream fis = new FileInputStream(file);
         XSSFWorkbook wb = new XSSFWorkbook(fis);
         XSSFSheet sheet = wb.getSheet("Sheet1");
